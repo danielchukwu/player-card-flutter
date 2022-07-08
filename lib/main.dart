@@ -16,7 +16,7 @@ class NinjaCard extends StatelessWidget {
       backgroundColor: Colors.grey[900],
       // HEADER
       appBar: AppBar(
-        title: const Text("Ninja ID Card"),
+        title: const Text("Player ID Card"),
         centerTitle: true,
         backgroundColor: Colors.grey[850],
         elevation: 0,
@@ -54,6 +54,7 @@ class NinjaCard extends StatelessWidget {
               style: TextStyle(
                 color: Colors.amberAccent,
                 fontSize: 28,
+                letterSpacing: 1,
               ),
             ),
             const SizedBox(height: 30),
@@ -90,6 +91,7 @@ class NinjaCard extends StatelessWidget {
                   'christiano.ronaldo@gmail.com',
                   style: TextStyle(
                     color: Colors.grey[400],
+                    letterSpacing: 1,
                   ),
                 )
               ],
